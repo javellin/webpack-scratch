@@ -13,6 +13,6 @@ export default {
 </script>
 <style scoped>
 h1{
-  color: red
+  color: red;
 }
 </style>

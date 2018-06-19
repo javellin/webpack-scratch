@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="full-width center-content">
     <hello-component name="World" />
   </div>
 </template>
