@@ -8,7 +8,7 @@ Webpack scratch is a webpack 5 and vuejs front end application, built from scrat
 
 We will use VueJS to write front end components, webpack as a bundler for our javascript code, babel for transpiling to ES6 and Jest for unit testing.
 
-I didn't find any documentation in my native language (pt-BR), so I decided to translate and adapt some things from a good written documentation I read, by Daniel Cook. 
+I didn't find any complete documentation with all this stuff together in my native language (pt-BR), so I decided to translate and adapt some things from a good written documentation I read, by Daniel Cook. 
 
 Here is the links:
 - Part 1: https://itnext.io/vuejs-and-webpack-4-from-scratch-part-1-94c9c28a534a.
