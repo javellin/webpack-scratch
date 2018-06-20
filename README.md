@@ -257,19 +257,14 @@ Com tudo isso funcionando, vamos adicionar um pouco de CSS e ver como ficará. M
 
 ```
 <template>
-  <div class="full-width center-content">
+  <div class="color">
     <h1>Hello World!</h1>
   </div>
 </template>
 
 <style scoped>
-.full-width {
-  width: 100%;
-}
-.center-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.color{
+  background-color: grey;
 }
 </style>
 ```
@@ -316,9 +311,10 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
-h1
-  color red
+<style scoped>
+h1{
+  color: red;
+}
 </style>
 ```
 
@@ -326,7 +322,7 @@ Agora mude o `App.vue`, para que ele possa usar nosso novo componente:
 
 ```javascript
 <template>
-  <div class="full-width center-content">
+  <div class="color">
     <hello-component name="World" />
   </div>
 </template>
@@ -341,13 +337,8 @@ export default {
 </script>
 
 <style scoped>
-.full-width {
-  width: 100%;
-}
-.center-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.color{
+  background-color: grey;
 }
 </style>
 ```
@@ -511,12 +502,12 @@ Agora o Jest já está configurado e podemos realmente escrever um teste unitár
 import {mount, createLocalVue} from '@vue/test-utils'
 import App from '../App'
 
-test('App has a .center-content class', () => {
+test('App has a .color class', () => {
     const vue = createLocalVue()
 
     const app = mount(App, {vue})
 
-    expect(app.classes()).toContain('center-content')
+    expect(app.classes()).toContain('color')
 })
 ```
 
