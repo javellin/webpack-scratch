@@ -4,7 +4,7 @@
 - Babel loader;
 - Jest.
 
-Webpack scratch is a webpack 5 and vuejs front end application, built from scratch, wich will integrate with a NodeJS backend app in the near future.
+Webpack scratch is a webpack 4 and vuejs front end application, built from scratch, wich will integrate with a NodeJS backend app in the near future.
 
 We will use VueJS to write front end components, webpack as a bundler for our javascript code, babel for transpiling to ES6 and Jest for unit testing.
 
