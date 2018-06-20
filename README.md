@@ -251,7 +251,7 @@ module.exports = {
 
 Agora você verá que, apesar das atualizações que você fizer, a tela não será inteira recarregada.
 
-## Estilo (CSS):
+### Estilo (CSS):
 
 Com tudo isso funcionando, vamos adicionar um pouco de CSS e ver como ficará. Mude seu arquivo `App.vue`, para que ele fique parecido com isso: 
 
@@ -291,7 +291,7 @@ $ npm install --save-dev vue-style-loader
 
 Agora com certeza o CSS será carregado e você verá o estilo aplicado.
 
-### Primeiro componente
+### Primeiro componente:
 
 Isso é apenas para um aprendizado básico, então não iremos nos aprofundar na questão de componentes aqui. Vamos criar algo bem básico, adicione um diretório `hello` e um arquivo `HelloComponent.vue` dentro dele. Este componente apenas receberá um nome como uma propriedade e o mostrará na tela.
 
@@ -351,7 +351,7 @@ Primeiro, instale sua dependência:
 $ npm install --save-dev babel-core babel-loader babel-preset-env
 ```
 
-Agora adicione o loader do babelo no seu arquivo de configuração do webpack, assim como foi feito com o CSS e o Vue:
+Agora adicione o loader do babel no seu arquivo de configuração do webpack, assim como foi feito com o CSS e o Vue:
 
 ```javascript
 {
@@ -362,7 +362,7 @@ Agora adicione o loader do babelo no seu arquivo de configuração do webpack, a
 
 Vale ressaltar que essa configuração do loader do babel venha apenas depois do loader do vue (vue-loader), pois o `vue-loader` divide o arquivo em diferentes módulos para o `html, js e o css`, e nós queremos que o `babel-loader` processe este `js`.
 
-Finalmente criamos um arquivo na raiz do projeto com o nome `.babelrc`, será onde colocaremos as configurações específicas do `babel`. D e início, vamos deixar o mais simples possível: 
+Finalmente criamos um arquivo na raiz do projeto com o nome `.babelrc`, será onde colocaremos as configurações específicas do `babel`. De início, vamos deixar o mais simples possível: 
 
 ```json
 {
@@ -445,7 +445,7 @@ module.exports = {
 
 Agora todas imagens que colocarmos no nosso diretório `static/img` será copiado um diretório equivalente na nossa pasta `dist`.
 
-### Teste unitário
+### Teste unitário:
 
 Como parte do ecosistema Vue, `vue-test-utils` é a biblioteca oficial para testes unitários. Suporta vários `test runners` (por ex. karma e jest), renderização superficial, simulação de interação do usuário, mock para vuex e vue-router e atualizações síncronas.
 
