@@ -140,7 +140,7 @@ Agora vamos criar um `index.html` que irá puxar o nosso bundle. Ficará na raiz
   </head>
   <body>
     <div id="app"></div>
-    <script src="dist/index.js" type="text/javascript"></script>
+    <script src="dist/main.js" type="text/javascript"></script>
   </body>
 </html>
 ```
