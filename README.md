@@ -159,9 +159,10 @@ Adicione mais um script à seção de scripts do seu `package.json`:
 "dev": "webpack-dev-server --config build/webpack.config.dev.js"
 ```
 
-Agora quando rodarmos o comando:
+Agora quando rodarmos os comandos:
 
 ```
+$ npm run build
 $ npm run dev
 ```
 
