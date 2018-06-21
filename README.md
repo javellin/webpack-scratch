@@ -293,7 +293,7 @@ Agora com certeza o CSS será carregado e você verá o estilo aplicado.
 
 ### Primeiro componente:
 
-Isso é apenas para um aprendizado básico, então não iremos nos aprofundar na questão de componentes aqui. Vamos criar algo bem básico, adicione um diretório `hello` e um arquivo `HelloComponent.vue` dentro dele. Este componente apenas receberá um nome como uma propriedade e o mostrará na tela.
+Isso é apenas para um aprendizado básico, então não iremos nos aprofundar na questão de componentes aqui. Vamos criar algo bem básico, adicione um diretório `hello` e um arquivo `HelloComponent.vue` dentro dele (tudo isso dentro da pasta `components`). Este componente apenas receberá um nome como uma propriedade e o mostrará na tela.
 
 ```javascript
 <template>
